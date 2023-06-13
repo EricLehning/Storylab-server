@@ -1,0 +1,86 @@
+[
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 1,
+        "fields": {
+            "obstruction": "their nemesis"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 2,
+        "fields": {
+            "obstruction": "a system that's rigged against them"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 3,
+        "fields": {
+            "obstruction": "ruthless competitors"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 4,
+        "fields": {
+            "obstruction": "corrupt authorities"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 5,
+        "fields": {
+            "obstruction": "witches"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 6,
+        "fields": {
+            "obstruction": "zombies"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 7,
+        "fields": {
+            "obstruction": "demonic forces"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 8,
+        "fields": {
+            "obstruction": "killer bees"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 9,
+        "fields": {
+            "obstruction": "feral children"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 10,
+        "fields": {
+            "obstruction": "entitled creeps"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 11,
+        "fields": {
+            "obstruction": "rabid geese"
+        }
+    },
+    {
+        "model": "storylabapi.obstacle",
+        "pk": 12,
+        "fields": {
+            "obstruction": "a murderous cult"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "model": "storylabapi.genre",
+        "pk": 1,
+        "fields": {
+            "category": "drama"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 2,
+        "fields": {
+            "category": "comedy"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 3,
+        "fields": {
+            "category": "horror story"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 4,
+        "fields": {
+            "category": "thriller"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 5,
+        "fields": {
+            "category": "romantic comedy"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 6,
+        "fields": {
+            "category": "science fiction"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 7,
+        "fields": {
+            "category": "fantasy"
+        }
+    },
+    {
+        "model": "storylabapi.genre",
+        "pk": 8,
+        "fields": {
+            "category": "historical epic"
+        }
+    }
+]

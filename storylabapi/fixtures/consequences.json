@@ -3,7 +3,35 @@
         "model": "storylabapi.consequence",
         "pk": 1,
         "fields": {
-            "fearName": "death"
+            "negResult": "the world will come to an end"
         }
     },
+    {
+        "model": "storylabapi.consequence",
+        "pk": 2,
+        "fields": {
+            "negResult": "they'll lose the one(s) they love most"
+        }
+    },
+    {
+        "model": "storylabapi.consequence",
+        "pk": 3,
+        "fields": {
+            "negResult": "they won't survive"
+        }
+    },
+    {
+        "model": "storylabapi.consequence",
+        "pk": 4,
+        "fields": {
+            "negResult": "they'll wind up alone"
+        }
+    },
+    {
+        "model": "storylabapi.consequence",
+        "pk": 5,
+        "fields": {
+            "negResult": "they'll lose themselves forever"
+        }
+    }
 ]

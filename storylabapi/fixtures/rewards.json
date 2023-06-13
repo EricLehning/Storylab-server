@@ -1,0 +1,51 @@
+[
+    {
+        "model": "storylabapi.reward",
+        "pk": 1,
+        "fields": {
+            "prize": "protect their family"
+        }
+    },
+    {
+        "model": "storylabapi.reward",
+        "pk": 2,
+        "fields": {
+            "prize": "get rich"
+        }
+    },
+    {
+        "model": "storylabapi.reward",
+        "pk": 3,
+        "fields": {
+            "prize": "find true love"
+        }
+    },
+    {
+        "model": "storylabapi.reward",
+        "pk": 4,
+        "fields": {
+            "prize": "unlock the mysteries of their own past"
+        }
+    },
+    {
+        "model": "storylabapi.reward",
+        "pk": 5,
+        "fields": {
+            "prize": "become who they are truly meant to be"
+        }
+    },
+    {
+        "model": "storylabapi.reward",
+        "pk": 6,
+        "fields": {
+            "prize": "right the wrongs of their past"
+        }
+    },
+    {
+        "model": "storylabapi.reward",
+        "pk": 7,
+        "fields": {
+            "prize": "rescue their loved one"
+        }
+    }
+]
