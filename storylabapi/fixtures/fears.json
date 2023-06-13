@@ -1,0 +1,44 @@
+[
+    {
+        "model": "storylabapi.fear",
+        "pk": 1,
+        "fields": {
+            "fearName": "death"
+        }
+    },
+    {
+        "model": "storylabapi.fear",
+        "pk": 2,
+        "fields": {
+            "fearName": "rejection"
+        }
+    },
+    {
+        "model": "storylabapi.fear",
+        "pk": 3,
+        "fields": {
+            "fearName": "abandonment"
+        }
+    },
+    {
+        "model": "storylabapi.fear",
+        "pk": 4,
+        "fields": {
+            "fearName": "humiliation"
+        }
+    },
+    {
+        "model": "storylabapi.fear",
+        "pk": 5,
+        "fields": {
+            "fearName": "confrontation"
+        }
+    },
+    {
+        "model": "storylabapi.fear",
+        "pk": 6,
+        "fields": {
+            "fearName": "incompetence"
+        }
+    }
+]

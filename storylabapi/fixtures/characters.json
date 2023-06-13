@@ -1,0 +1,72 @@
+[
+    {
+        "model": "storylabapi.character",
+        "pk": 1,
+        "fields": {
+            "description": "cop"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 2,
+        "fields": {
+            "description": "journalist"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 3,
+        "fields": {
+            "description": "doctor"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 4,
+        "fields": {
+            "description": "scientist"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 5,
+        "fields": {
+            "description": "artist"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 6,
+        "fields": {
+            "description": "soldier"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 7,
+        "fields": {
+            "description": "teacher"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 8,
+        "fields": {
+            "description": "high school student"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 9,
+        "fields": {
+            "description": "lawyer"
+        }
+    },
+    {
+        "model": "storylabapi.character",
+        "pk": 10,
+        "fields": {
+            "description": "criminal"
+        }
+    }
+]

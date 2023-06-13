@@ -1,0 +1,9 @@
+[
+    {
+        "model": "storylabapi.consequence",
+        "pk": 1,
+        "fields": {
+            "fearName": "death"
+        }
+    },
+]

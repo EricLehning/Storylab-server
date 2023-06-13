@@ -1,0 +1,52 @@
+[
+    {
+        "model": "storylabapi.desire",
+        "pk": 1,
+        "fields": {
+            "wish": "love"
+        }
+    },
+    {
+        "model": "storylabapi.desire",
+        "pk": 2,
+        "fields": {
+            "wish": "wealth"
+        }
+    },
+    {
+        "model": "storylabapi.desire",
+        "pk": 3,
+        "fields": {
+            "wish": "enlightenment"
+        }
+    },
+    {
+        "model": "storylabapi.desire",
+        "pk": 4,
+        "fields": {
+            "wish": "revenge"
+        }
+    },
+    {
+        "model": "storylabapi.desire",
+        "pk": 5,
+        "fields": {
+            "wish": "freedom"
+        }
+    },
+    {
+        "model": "storylabapi.desire",
+        "pk": 6,
+        "fields": {
+            "wish": "fame"
+        }
+    },
+    {
+        "model": "storylabapi.desire",
+        "pk": 7,
+        "fields": {
+            "wish": "justice"
+        }
+    }
+
+]
