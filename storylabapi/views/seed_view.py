@@ -1,4 +1,4 @@
-"""View module for handling requests about game types"""
+"""View module for handling requests about seeds"""
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
@@ -28,9 +28,9 @@ class SeedView(ViewSet):
         serializer = SeedSerializer(seeds, many=True)
         return Response(serializer.data)
     
-    class SeedSerializer(serializers.ModelSerializer):
-        """JSON serializer for game types
-        """
-        class Meta:
-            model = Seed
-            fields = ('id', 'label')
+class SeedSerializer(serializers.ModelSerializer):
+    """JSON serializer for game types
+    """
+    class Meta:
+        model = Seed
+        fields = ('id', 'user', 'title', 'genre', 'character', 'desire', 'fear', 'obstacles', 'consequence', 'reward')
