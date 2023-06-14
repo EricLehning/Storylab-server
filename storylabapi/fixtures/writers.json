@@ -4,9 +4,7 @@
         "pk": 1,
         "fields": {
             "user": 1,
-            "userName": "Carrie1945",
             "penName": "Carrie Bear",
-            "email": "me@me.com",
             "profilePic": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gilda_Radner_-_1980.jpg"
         }
     }
