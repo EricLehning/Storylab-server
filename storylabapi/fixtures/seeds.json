@@ -13,5 +13,20 @@
             "consequence": 5,
             "reward": 5 
         }
+    },
+    {
+        "model": "storylabapi.seed",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "title": "Dying Breed",
+            "genre": 1,
+            "character": 1,
+            "desire": 4,
+            "fear": 3,
+            "obstacles": [1, 3, 4],
+            "consequence": 3,
+            "reward": 3 
+        }
     }
 ]
