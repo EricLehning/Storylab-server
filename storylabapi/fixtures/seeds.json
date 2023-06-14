@@ -1,0 +1,17 @@
+[
+    {
+        "model": "storylabapi.seed",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "title": "Palace Revolution",
+            "genre": 8,
+            "character": 3,
+            "desire": 3,
+            "fear": 4,
+            "obstacles": [3, 4, 7],
+            "consequence": 5,
+            "reward": 5 
+        }
+    }
+]
