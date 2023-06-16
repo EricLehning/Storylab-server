@@ -1,5 +1,7 @@
-# Storylab
+# Storylab 
 A writer's workshop
+
+Author: Eric Lehning
 
 For the last 2 years I’ve been a full-time screenwriter. A huge amount of that work involves story brainstorming, creating simple one or two sentence story ideas. It’s extremely time consuming, but with an app that breaks down stories into their basic elements, it can be accomplished in moments. 
 All stories are comprised of a few basic components. A character who desires something and fears something, the obstacles that stand in their way, the consequences if they fail, and the rewards if they succeed. 
