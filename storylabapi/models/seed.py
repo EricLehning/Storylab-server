@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Seed(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    writer = models.ForeignKey("Writer", on_delete=models.CASCADE)
     title = models.CharField(max_length=50)
     genre = models.ForeignKey("Genre", on_delete=models.CASCADE)
     character = models.ForeignKey("Character", on_delete=models.CASCADE)
