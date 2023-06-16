@@ -64,6 +64,37 @@ class SeedView(ViewSet):
 
         serializer = SeedSerializer(seed)
         return Response(serializer.data)
+    
+    def update(self, request, pk):
+        """Handle PUT requests for a seed
+
+        Returns:
+            Response -- Empty body with a 204 status code
+        """
+
+        seed = Seed.objects.get(pk=pk)
+        genre = Genre.objects.get(pk=request.data["genre"])
+        character = Character.objects.get(pk=request.data["character"])
+        desire = Desire.objects.get(pk=request.data["desire"])
+        fear = Fear.objects.get(pk=request.data["fear"])
+        consequence = Consequence.objects.get(pk=request.data["consequence"])
+        reward = Reward.objects.get(pk=request.data["reward"])
+        
+        seed.title = request.data["title"]
+        seed.genre = genre
+        seed.character = character
+        seed.desire = desire
+        seed.fear = fear
+        seed.consequence = consequence
+        seed.reward = reward
+
+        #update the obstacles to the seed's obstacle field
+        obstacles = [Obstacle.objects.get(pk=obstacle_id) for obstacle_id in request.data.get("obstacles", [])]
+        seed.obstacles.set(obstacles)
+        seed.save()
+
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
 
     
 class SeedSerializer(serializers.ModelSerializer):
