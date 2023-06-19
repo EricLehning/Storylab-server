@@ -88,7 +88,7 @@ class SeedView(ViewSet):
         seed.consequence = consequence
         seed.reward = reward
 
-        #update the obstacles to the seed's obstacle field
+        #update obstacles to the seed's obstacle field
         obstacles = [Obstacle.objects.get(pk=obstacle_id) for obstacle_id in request.data.get("obstacles", [])]
         seed.obstacles.set(obstacles)
         seed.save()
