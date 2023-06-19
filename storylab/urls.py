@@ -19,7 +19,7 @@ from django.conf.urls import include
 from django.urls import path
 from storylabapi.views import register_user, login_user
 from rest_framework import routers
-from storylabapi.views import SeedView, CharacterView, ConsequenceView, DesireView, FearView, GenreView, ObstacleView, RewardView
+from storylabapi.views import SeedView, CharacterView, ConsequenceView, DesireView, FearView, GenreView, ObstacleView, RewardView, WriterView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'seeds', SeedView, 'seed')
@@ -30,6 +30,7 @@ router.register(r'fears', FearView, 'fear')
 router.register(r'genres', GenreView, 'genre')
 router.register(r'obstacles', ObstacleView, 'obstacles')
 router.register(r'rewards', RewardView, 'reward')
+router.register(r'writers', WriterView, 'writer')
 
 
 urlpatterns = [
