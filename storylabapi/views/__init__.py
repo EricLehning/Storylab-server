@@ -8,3 +8,4 @@ from .genre_view import GenreView
 from .obstacle_view import ObstacleView
 from .reward_view import RewardView
 from .writer_view import WriterView
+from .chatbot_view import ChatbotView
