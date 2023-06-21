@@ -1,0 +1,11 @@
+[
+    {
+        "model": "storylabapi.outline",
+        "pk": 1,
+        "fields": {
+            "writer": 2,
+            "title": "Test Outline",
+            "prose": "This is only a test outline. The prose are atrocious."
+        }
+    }
+]

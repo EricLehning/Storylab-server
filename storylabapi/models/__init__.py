@@ -7,5 +7,6 @@ from .consequence import Consequence
 from .reward import Reward
 from .seed import Seed
 from .genre import Genre
+from .outline import Outline
 
 
